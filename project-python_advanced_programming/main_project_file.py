@@ -3,7 +3,11 @@
     from the user
     The same data is then copies into a new excel file
 """
-import openpyxl
+try:
+    import openpyxl
+except ModuleNotFoundError as error:
+    print(error)
+    print("Please Install openpyxl module to use this project")
 
 
 def get_ps_numbers(input_data_workbook):
@@ -194,14 +198,22 @@ def write_data_to_excel(ps_number):
 
 
 if __name__ == '__main__':
-    input_workbook = openpyxl.open("datafile.xlsx")
-    ps_numbers_list = get_ps_numbers(input_workbook)
-    ps_number_choice = print_welcome_screen(ps_numbers_list)
-    ps_num = ps_numbers_list[ps_number_choice - 2]
-    marks_list = get_marks_ps_number(ps_number_choice, input_workbook)
-    hobbies_list = get_hobbies_ps_number(ps_number_choice, input_workbook)
-    cities_visited_list = get_cities_ps_number(ps_number_choice, input_workbook)
-    programming_skills_list = get_programming_ps_number(ps_number_choice, input_workbook)
-    domain_ares_list = get_domain_areas_ps_number(ps_number_choice, input_workbook)
-    print_data_of_ps_number(ps_num, len(marks_list))
-    write_data_to_excel(ps_num)
+    try:
+        input_workbook = openpyxl.open("datafile.xlsx")
+        ps_numbers_list = get_ps_numbers(input_workbook)
+        ps_number_choice = print_welcome_screen(ps_numbers_list)
+        ps_num = ps_numbers_list[ps_number_choice - 2]
+        marks_list = get_marks_ps_number(ps_number_choice, input_workbook)
+        hobbies_list = get_hobbies_ps_number(ps_number_choice, input_workbook)
+        cities_visited_list = get_cities_ps_number(ps_number_choice, input_workbook)
+        programming_skills_list = get_programming_ps_number(ps_number_choice, input_workbook)
+        domain_ares_list = get_domain_areas_ps_number(ps_number_choice, input_workbook)
+        print_data_of_ps_number(ps_num, len(marks_list))
+        write_data_to_excel(ps_num)
+    except ValueError:
+        print("ERROR!! Enter only Integer")
+        print("Enter a Integer number between 1-15")
+    except FileNotFoundError as error:
+        print(error)
+        print("Please paste Python and Excel file in same directory")
+        print("Rename the file to 'datafile.xlsx' if already in directory")
