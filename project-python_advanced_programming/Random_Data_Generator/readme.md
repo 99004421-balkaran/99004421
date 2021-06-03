@@ -15,8 +15,8 @@ This is the directory that has files that are used to generate the random data i
 * Then you can copy this file to the directory to run the project.
 * I have done Excel creation using python to practice more of the OOPs concept of python.
 ## Description of all files
-|     File name                  |     Description                                                             |
-|--------------------------------|-----------------------------------------------------------------------------|
+|            File name           |                                  Description                                |
+|:------------------------------:|:---------------------------------------------------------------------------:|
 |           Main_file.py         |      File to generate the Excel file using all 5 classes for each sheet     |
 |     generate_sheet1_data.py    |             Python file with class to generate random Marks data            |
 |     generate_sheet2_data.py    |            Python file with class to generate random Hobbies data           |
