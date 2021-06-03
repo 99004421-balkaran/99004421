@@ -1,0 +1,20 @@
+name: Dynamic Code Analysis
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install Python 3
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.6
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install mypy
+      - name: Run Dynamic Analysis with mypy
+        run: |
+          cd 3_Implementation/
+          mypy src_test 
