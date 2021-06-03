@@ -1,5 +1,11 @@
 # 99004421 Python Advanced Programming Project
 This is the project created by me for Python Advanced Programming Module of the genesis. This project uses excel read and write operations to store random data created by the program. This data can is stored in the excel file using ***openpyxl*** libraray.
+## Objectives of the project
+* User can select the PS number of the employee he desires.
+* The user input will be checked and data will be extarcted from the excel file
+* The extracted data will be printed on the console and written to the excel file.
+* Then name of the excel file is ***PS_number_output_data.xlsx*** where PS_number is the number selected by the user.
+* User can Access this file for any future use.
 ## Pytest and Pylint Working
  [![Pytest - Unit Testing](https://github.com/99004421-balkaran/99004421/actions/workflows/pytest.yml/badge.svg)](https://github.com/99004421-balkaran/99004421/actions/workflows/pytest.yml) 
 
