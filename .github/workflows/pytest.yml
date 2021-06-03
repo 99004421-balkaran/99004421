@@ -1,4 +1,4 @@
-name: Python Tests
+name: Run Python Tests
 on: [push]
 
 jobs:
@@ -11,7 +11,8 @@ jobs:
         with:
           python-version: 3.6
       - name: Install dependencies
-        run: pip install openpyxl 
+        run:
           pip install pytest
       - name: Run tests with pytest
-        run: pytest
+        run: cd project-python_advanced_programming/ 
+          pytest
