@@ -6,6 +6,11 @@ This is the project created by me for Python Advanced Programming Module of the 
  [![Pylint Check](https://github.com/99004421-balkaran/99004421/actions/workflows/pylint.yml/badge.svg)](https://github.com/99004421-balkaran/99004421/actions/workflows/pylint.yml)
  
  [![Git Inspector](https://github.com/99004421-balkaran/99004421/actions/workflows/gitInspector.yml/badge.svg)](https://github.com/99004421-balkaran/99004421/actions/workflows/gitInspector.yml)
+## Folder Structure
+|                 Folder Name                |                                         Description                                       |
+|:------------------------------------------:|:-----------------------------------------------------------------------------------------:|
+|     project-python_advanced_programming    |       Folder Containing all python files   including main project file and test file      |
+|            Screenshots_Of_Project          |     Screenshots of the pytest, pylint,   running project and outputs shown to the user    |
 ## Steps to run the project
 * To run the project you must have installed python and openpyxl library of python.
 * To Install ***openpyxl*** use command ***pip install openpyxl***.
