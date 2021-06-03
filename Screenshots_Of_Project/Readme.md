@@ -10,7 +10,7 @@
 ### First Welcome Screen
 ![image](https://user-images.githubusercontent.com/84492967/120596523-7d6b7c00-c461-11eb-9256-0d66ea3f5d73.png)
 ### User Entering input
-![image](https://user-images.githubusercontent.com/84492967/120596563-89efd480-c461-11eb-98e2-5503bd73db40.png)
+![image](https://user-images.githubusercontent.com/84492967/120633417-bd455a00-c487-11eb-9acc-914a55ab14b8.png)
 ### Console Output Shown to the user
 ![image](https://user-images.githubusercontent.com/84492967/120596610-98d68700-c461-11eb-83c3-a903462c9e03.png)
 ### Output when user enters input out of range
