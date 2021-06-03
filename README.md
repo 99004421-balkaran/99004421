@@ -20,10 +20,11 @@ This is the project created by me for Python Advanced Programming Module of the 
 ## Steps to run the project
 * To run the project you must have installed python and openpyxl library of python.
 * To Install ***openpyxl*** use command ***pip install openpyxl***.
-* After installing the openpyxl, run the Python file named ***main_project_file.py***.
+* After installing the openpyxl, run the Python file named ***main_project_file.py*** by opening the ***project-python_advanced_programming*** folder of the project.
 * This will show all available PS numbers and ask for choose PS number to get output.
 * After checking that input is valid it prints the data of PS number in tabular format and copies that data to the Excel file.
 ## Steps to run pytest
 * In order to run pytest you must have pytest module installed.
 * To install pytest using pip type ***pip install pytest***.
-* After installing pytest, type pytest in the command line it will collect and run all tests of the project.
+* After installing pytest, Open the ***project-python_advanced_programming*** folder of the project.
+* Type ***pytest*** in the command line it will collect and run all tests of the project.
