@@ -2,8 +2,10 @@
 This is the project created by me for Python Advanced Programming Module of the genesis. This project uses excel read and write operations to store random data created by the program. This data can is stored in the excel file using ***openpyxl*** libraray.
 ## Pytest and Pylint Working
  [![Pytest - Unit Testing](https://github.com/99004421-balkaran/99004421/actions/workflows/pytest.yml/badge.svg)](https://github.com/99004421-balkaran/99004421/actions/workflows/pytest.yml) 
- 
+
  [![Pylint Check](https://github.com/99004421-balkaran/99004421/actions/workflows/pylint.yml/badge.svg)](https://github.com/99004421-balkaran/99004421/actions/workflows/pylint.yml)
+ 
+ [![Git Inspector](https://github.com/99004421-balkaran/99004421/actions/workflows/gitInspector.yml/badge.svg)](https://github.com/99004421-balkaran/99004421/actions/workflows/gitInspector.yml)
 ## Steps to run the project
 * To run the project you must have installed python and openpyxl library of python.
 * To Install ***openpyxl*** use command ***pip install openpyxl***.
