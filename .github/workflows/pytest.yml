@@ -1,4 +1,4 @@
-name: Python Tests
+name: Pytest Python Tests
 on: [push]
 
 jobs:
