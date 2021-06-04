@@ -16,7 +16,7 @@ The output Excel file will have its name as ***PS Number_output_data.xlsx*** whe
 |:--------------------------------:|:--------------------------------------------------------------------------------------:|
 |        main_project_file.py      |     File to get PS number input from user to print output and generate   Excel file    |
 |          test_project.py         |                       File to test the project using pytest module                     |
-|           datafile.xlsx          |                        File containing 5 sheets of required data                       |
+|           datafile.xlsx          |                        Input file containing 5 sheets of required input data                       |
 |     99004413_output_data.xlsx    |                   Sample output file generated using the project file                  |
 ## About Random_Data_Generator Folder
 This folder contains python files that are used to generate the random data to be used in the project. This folder contains 5 files with classes for each sheet and one main file which executes functionalities of these classes. Each of the five files generates one sheet each with the required size of the project description with a primary key as PS number and data in 15 rows and 20 columns. This data will be used by the main project for the extraction of the final output.
