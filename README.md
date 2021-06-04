@@ -1,5 +1,5 @@
 # 99004421 Python Advanced Programming Project
-This is the project created by me for Python Advanced Programming Module of the genesis. This project uses excel read and write operations to store random data created by the program. This data can is stored in the excel file using ***openpyxl*** libraray.
+This is the project created by me for the Python Advanced Programming Module of the genesis. This project uses excel read and write operations to store random data created by the program. This data can is stored in the excel file using ***openpyxl*** library. First, the random data is created using the python file in the folder ***Random_Data_Generator*** then this data is read by another python file and data is extracted from the excel file to print on console and copying that data to new Excel output file.
 ## Objectives of the project
 * User can select the PS number of the employee he desires.
 * The user input will be checked and data will be extarcted from the excel file
