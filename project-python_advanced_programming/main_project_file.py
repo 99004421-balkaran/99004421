@@ -3,6 +3,8 @@
     from the user
     The same data is then copies into a new excel file
 """
+import sys
+
 try:
     import openpyxl
 except ModuleNotFoundError as error:
@@ -91,12 +93,16 @@ def print_welcome_screen(ps_numbers):
     for number in ps_numbers:
         print(str(sr_no) + '.', number)
         sr_no += 1
+    print("16. To exit the program")
     while True:
         try:
             user_choice = int(input("\nSelect the number you want to choose: ")) + 1
-            if not 1 < user_choice < 17:
+            if not 1 < user_choice < 18:
                 print("Please Enter valid PS Number choice")
                 print("Enter number between 1 to 15")
+            elif user_choice == 17:
+                print("Program Terminated....")
+                sys.exit()
             else:
                 return user_choice
         except ValueError:
@@ -211,7 +217,6 @@ if __name__ == '__main__':
             domain_ares_list = get_domain_areas_ps_number(ps_number_choice, input_workbook)
             print_data_of_ps_number(ps_num, len(marks_list))
             write_data_to_excel(ps_num)
-            break
         except ValueError:
             print("ERROR!! Enter only Integer")
             print("Enter a Integer number between 1-15")
