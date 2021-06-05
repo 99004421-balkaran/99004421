@@ -8,15 +8,17 @@
 ![image](https://user-images.githubusercontent.com/84492967/120595796-945d9e80-c460-11eb-85dc-1f401b2e6ca9.png)
 ## Screenshots of the running Project
 ### First Welcome Screen
-![image](https://user-images.githubusercontent.com/84492967/120596523-7d6b7c00-c461-11eb-9256-0d66ea3f5d73.png)
+![image](https://user-images.githubusercontent.com/84492967/120894833-0a682e00-c638-11eb-82d0-2a3755c53456.png)
 ### User Entering input
-![image](https://user-images.githubusercontent.com/84492967/120633417-bd455a00-c487-11eb-9acc-914a55ab14b8.png)
+![image](https://user-images.githubusercontent.com/84492967/120894838-12c06900-c638-11eb-888f-892c8cf35a98.png)
 ### Console Output Shown to the user
-![image](https://user-images.githubusercontent.com/84492967/120596610-98d68700-c461-11eb-83c3-a903462c9e03.png)
+![image](https://user-images.githubusercontent.com/84492967/120894851-2075ee80-c638-11eb-9706-7f13ec17235d.png)
 ### Output when user enters input out of range
 ![image](https://user-images.githubusercontent.com/84492967/120596756-c02d5400-c461-11eb-937f-2cd57b95266b.png)
 ### Output when user enters invalid inputs
 ![image](https://user-images.githubusercontent.com/84492967/120596681-aa1f9380-c461-11eb-9e28-59288acaec49.png)
+### Console Screen when user choose to Exit the program
+![image](https://user-images.githubusercontent.com/84492967/120894881-413e4400-c638-11eb-8413-837d8700d982.png)
 ## Screenshots of Excel Output file
 ![image](https://user-images.githubusercontent.com/84492967/120596884-ea7f1180-c461-11eb-87d6-f6db16f6c80a.png)
 ## Screenshots of Excel Input file
